@@ -1,0 +1,42 @@
+*{
+    background-color: rgb(43, 44, 73);
+}
+.myHeader {
+    display: flex;
+    font-size:50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yuji Syuku', serif;
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 300px;
+    height: 100px;
+}
+
+
+
+.searchBar {
+    align-items: center;
+    display: flex;
+}
+
+#navItemsMe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 100px;
+    color: white;
+    
+}
+
+#dropdownItemMe {
+    background-color: antiquewhite;
+    color: black;
+}
+
