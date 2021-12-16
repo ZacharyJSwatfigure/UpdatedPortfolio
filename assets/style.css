@@ -1,11 +1,20 @@
 *{
     background-color: rgb(43, 44, 73);
 }
-.myHeader {
+
+.headerSpacing {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.myHeader {
     font-size:50px;
     margin: 0 auto;
     margin-top: 80px;
+    margin-right: 80px;
+    text-align: center;
     justify-content: center;
     align-items: center;
     font-family: 'Yuji Syuku', serif;
@@ -17,29 +26,31 @@
     height: 100px;
 }
 
-.headerSpacing {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 .headerSpace {
     display: flex;
-    width: 464px;
+    font-size:25px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Yuji Syuku', serif;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 500px;
     height: 100px;
 }
 
 
 .searchBar {
+    display: flex;
+    justify-content: center;
     align-items: center;
     display: flex;
+    margin: 0 auto;
 }
 
 #navItemsMe {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 0 auto;
     margin-top: 75px;
     width: 125px;
     color: white;
