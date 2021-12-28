@@ -1,0 +1,59 @@
+
+
+*{
+    background-color: rgb(43, 44, 73);
+}
+
+.bigSectionResume {
+    background-color: white;
+    width: 100%;
+    height: 800px;
+    margin-top: 0px;
+
+}   
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.searchbarBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:blue;
+    width: 1000px;
+    height: 50px;
+    border-radius: 20px;
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+
+#navItemsMe {
+    margin-top: 75px;
+    margin: 25px;
+    color: white;
+    border-radius: 20px;
+    
+}
+
+.bigSectionResume {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 0px;
+
+}
+
+
+.mediumSectionResume{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: white;
+}

@@ -1,5 +1,3 @@
-
-
 document.getElementById("copyDiscord").addEventListener("click" , () => {
     navigator.clipboard.writeText("RazeTheCity#7048");
 
@@ -7,8 +5,13 @@ document.getElementById("copyDiscord").addEventListener("click" , () => {
     alert("Copied to clipboard (RazeTheCity#7048)");
 })
 
-document.getElementById("toResume").addEventListener('click' , () => {
-    window.location.assign("resume.html");
+document.getElementById("toProjects").addEventListener('click' , () => {
+    window.location.assign("myProjects.html");
+})
+
+document.getElementById("toMain").addEventListener("click" , () => {
+    window.location.assign("index.html");
+
 })
 
 document.getElementById("copyEmail").addEventListener("click" , () => {
@@ -18,7 +21,3 @@ document.getElementById("copyEmail").addEventListener("click" , () => {
     alert("Copied to clipboard (zacharyswatfigure@gmail.com)");
 })
 
-document.getElementById("toProjects").addEventListener("click" , () => {
-    window.location.assign("myProjects.html");
-
-})
